@@ -2,7 +2,7 @@
 # CMake version check
 cmake_minimum_required(VERSION 3.29)
 # Create project "simple_example"
-project(prg1-e-03-imc-calculator-Ethan0079)
+project(prg1_e_04_nbre_premiers_Ethan0079)
 # Enable c++14 standard
 set(CMAKE_CXX_STANDARD 14)
 # Add main.cpp file of the project root directory as a source file
