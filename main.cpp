@@ -15,6 +15,7 @@ int main() {
     int nbr_max;
     int nombre;
     int compteur;
+    int tableur = 0;
     char result;
 
     do {
@@ -25,6 +26,7 @@ int main() {
 
     cout << "Voici la liste des nombres premiers" << endl;
     nombre = 0;
+
     while(nombre < nbr_max){
         compteur = 0;
         nombre++;
@@ -38,7 +40,13 @@ int main() {
         if(compteur == 2)  //Le nombre premier se divise sur 1 et sur lui meme
         {
             // Sortir les nombres premiers 5 par 5
-            cout << '\t' << nombre << " " << '\t' << endl;
+            tableur++;
+            cout  << nombre << '\t';
+
+            if(tableur == 5) {
+                cout << endl;
+                tableur = 0;
+            }
         }
     }
 
