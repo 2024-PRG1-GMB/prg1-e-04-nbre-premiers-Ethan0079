@@ -1,0 +1,5 @@
+- Pas de constante pour les limites et les entrées utilisateur ('O' et 'N')
+- Affichage non comforme à ce qui est demandé dans la consigne
+- Il manque la lib cstdlib
+- Vous auriez dû utiliser une boucle do...while pour relancer le programme plutôt que ce vous faites ligne 58-65, et attention, n'utilisez plus jamais return main(), très mauvaise pratique!
+- La prochaine fois, inclure les fichiers de compilation cmake dans votre repo!
